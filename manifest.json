@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "test",
+    "description": "test",
+    "version": "0.1",
+  
+"browser_action": {
+    "default_title": "Test",
+    "default_popup": "index.html"
+},
+
+"permissions": [
+    "activeTab",
+    "<all_urls>"
+]
+}
